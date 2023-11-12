@@ -1,4 +1,4 @@
-# Proyecto: pilis-recupMod2-flores-juan-gabriel
+# Proyecto: pilis-recupMod04-flores-juan-gabriel
 
 Este proyecto proporciona un conjunto de herramientas para interactuar con una API relacionada con usuarios y recetas de cocina. A continuación, se detalla el contenido del proyecto y se incluyen instrucciones para su uso.
 
