@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+
+# TypeScript
+*.tsbuildinfo
+*.js
+*.js.map
+
+# Configuración
+.DS_Store
+.env
+
+# Carpeta de compilación
+/dist/
+
+# Dependiendo de tu entorno, puedes agregar más exclusiones aquí...
+# Por ejemplo, si usas Visual Studio Code:
+.vscode/
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.yml.override
+
+docker-compose/mysql/mysql_data/*.sock

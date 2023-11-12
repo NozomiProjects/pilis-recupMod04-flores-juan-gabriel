@@ -1,0 +1,14 @@
+-- Seleccionar la base de datos
+USE recetas_comidas_db;
+
+-- Eliminar registros existentes
+DELETE FROM recipe;
+
+-- Insertar nuevos registros
+INSERT INTO recipe (name, description, ingredients, preparation, cookingTime, imageUrl, servings)
+VALUES 
+    ('Locro', 'Un guiso tradicional a base de maíz, carne, zapallo y condimentos.', 'Maíz blanco, carne de cerdo, chorizo, cebolla, zapallo, papa, pimiento, ajo, comino, laurel, sal, pimienta.', 'Cocinar el maíz en agua con sal. En otra olla, freír la carne y el chorizo. Agregar cebolla, ajo, pimiento y condimentos. Añadir el zapallo, las papas y el maíz cocido. Cocinar hasta que los ingredientes estén tiernos.', '2 horas o mas', 'https://www.lavoz.com.ar/resizer/TjuWBjBYw5imsArxf5gRD7bLj8I=/980x640/smart/filters:quality(75):format(webp)/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/RZ23WR3Y6JBTZKQLPSJBSAXADU.jpg', 6),
+    ('Humita en Chala', 'Maíz rallado condimentado, envuelto en hojas de choclo y cocido al vapor.', 'Maíz rallado, cebolla, ajo, ají, queso, hojas de choclo, manteca, sal.', 'Mezclar el maíz rallado con cebolla, ajo, ají, queso y sal. Envolver la mezcla en hojas de choclo y atar con chala. Cocinar al vapor hasta que estén listas.', '1 hora', 'https://img-global.cpcdn.com/recipes/8fe7abda391c29b3/1200x630cq70/photo.jpg', 5),
+    ('Tamales', 'Masa rellena de carne, envuelta en hojas y cocida al vapor.', 'Harina de maíz, manteca, carne de res, cebolla, ají, comino, papas, huevos, aceitunas, pasas, hojas de maíz, sal.', 'Preparar la masa con harina de maíz, manteca y sal. Hacer un guiso con carne, cebolla, ají, comino, papas, huevos, aceitunas y pasas. Armar los tamales con la masa y el guiso, envolver en hojas de maíz y cocinar al vapor.', '2 horas o mas', 'https://cocinerosargentinos.com/content/recipes/500x500/recipes.14527.jpeg', 3),
+    ('Empanadas', 'Masa rellena de carne, huevo, papa y condimentos, horneada hasta dorar.', 'Harina, grasa, carne de res, cebolla, huevo, papa, comino, ají, aceitunas, grasa, sal.', 'Preparar la masa con harina, grasa y sal. Hacer un relleno con carne, cebolla, huevo, papa, comino, ají y aceitunas. Rellenar las empanadas, cerrar y hornear hasta que estén doradas.', '5 horas o mas', 'https://radiomitre.cienradios.com/resizer/XGPtDk-enKZa_tzgGPqOoPn8e6A=/arc-photo-radiomitre/arc2-prod/public/NLOL2RWKK5AAVMGRC7IFLZFZ7U.jpg', 8),
+    ('Sopa de Maní', 'Una sopa espesa a base de maní, carne y verduras.', 'Maní, carne de cordero, cebolla, ajo, zanahoria, papa, arroz, zapallo, laurel, comino, sal.', 'Cocinar el maní y hacer un puré. En una olla, hacer un guiso con carne, cebolla, ajo, zanahoria, papa, arroz, zapallo y condimentos. Agregar el puré de maní y cocinar hasta que todo esté bien integrado.', '6 horas o mas', 'https://img-global.cpcdn.com/recipes/4b94f4a20f2f27d7/400x400cq70/photo.jpg', 3);
